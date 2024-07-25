@@ -1,0 +1,16 @@
+테스트 수행 일자 : 2024_06_13_16h_20m
+
+[RESULT - PASS]
+TC_001
+TC_002
+TC_003
+TC_004
+
+[RESULT - FAIL]
+==========================
+
+PASS TC COUNT : 4
+FAIL TC COUNT : 0
+COMPLETED TEST COUNT : 4
+PROGRESS OF TEST : 100.0%
+PASS RATE : 100.0%

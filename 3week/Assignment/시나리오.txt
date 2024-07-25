@@ -1,0 +1,46 @@
+[유저 시나리오]
+1. NAVER 홈페이지 접속 확인하기
+2. 검색창에 "날씨" 검색
+3. 제대로 날씨 정보가 뜨는지 확인하기
+4. 날씨와 비슷한 단어로 오타를 검색
+5. 날씨로 검색한 결과입니다. 날씻 검색결과 보기 라는 문구가 뜨는지 확인
+6. 네이버 로고 클릭 시 홈으로 이동하는지 확인
+
+
+
+[시나리오 TC]
+Test Case ID : TC_001
+Description : NAVER 홈페이지 접속 확인
+Test Steps : url이 NAVER 홈페이지의 주소가 맞는지 확인
+Expected Result : NAVER 접속 성공 문구 출력
+Actual Result : Pass
+
+Test Case ID : TC_002
+Description : 검색 기능 확인
+Test Steps : 검색창에 "날씨" 입력 후 검색
+Expected Result : 날씨 검색 결과 페이지로 이동
+Actual Result : Pass
+
+Test Case ID : TC_003
+Description : 날씨 검색 결과 페이지 확인
+Test Steps : 날씨 정보가 뜨는지 확인
+Expected Result : 날씨 검색 결과 페이지가 열림
+Actual Result : Pass
+
+Test Case ID : TC_004
+Description : 비슷한 오타 검색 기능 확인
+Test Steps : 검색창에 "날씻" 입력 후 검색
+Expected Result : 날씻 검색 결과 페이지로 이동
+Actual Result : Pass
+
+Test Case ID : TC_005
+Description : 오타 교정 검색 기능 확인
+Test Steps : 날씻으로 검색했지만 날씨 검색 결과창이 뜨는지 확인
+Expected Result : 날씨 검색 결과 페이지가 열림
+Actual Result : Pass
+
+Test Case ID : TC_006
+Description : 로고 기능 확인
+Test Steps : NAVER 로고 클릭
+Expected Result : NAVER 홈으로 이동
+Actual Result : Pass

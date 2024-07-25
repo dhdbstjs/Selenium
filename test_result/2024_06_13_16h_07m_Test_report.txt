@@ -1,0 +1,9 @@
+테스트 수행 일자 - 2024_06_13_16h_07m
+
+[RESULT - PASS]
+TC_001
+TC_002
+TC_003
+TC_004
+
+[RESULT - FAIL]
